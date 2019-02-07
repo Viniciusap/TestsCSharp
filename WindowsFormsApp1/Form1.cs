@@ -23,5 +23,25 @@ namespace WindowsFormsApp1
             Teste.Procedimento(10, true);
             MessageBox.Show(Teste.ModificaString("Inicio : "));
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Teste teste = new Teste();
+            String[] arr = teste.Conect();
+
+            for (int i = 0; i< arr.Length; i++)
+            {
+                if (arr[i] != null)
+                {
+                    listBox1.Items.Add(arr[i]);
+                }
+                
+            }
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

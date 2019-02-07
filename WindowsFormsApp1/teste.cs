@@ -3,13 +3,17 @@ using System.Collections.Generic;
 using System.Web.Script.Serialization;
 using System.Windows.Forms;
 using System.Text.RegularExpressions;
+using System.Data;
+using System.Data.SqlClient;
+
 
 namespace WindowsFormsApp1
 {
     class Teste
     {
-        int div;
+        public int div;
         public string s;
+        public String[] arr = new String[10000];
 
         public static int Procedimento(int num, bool tf)
         {
@@ -59,5 +63,42 @@ namespace WindowsFormsApp1
             return ss;
         }
 
+        public String[] Conect()
+        {
+            string connectiostring = @"Data Source=Vinicius-pc\SQL;Initial Catalog=TOTALDOCSAMZ;User Id=sa;Password=sa@12345678";
+
+            SqlConnection sqlConnection = new SqlConnection(connectiostring);
+
+            sqlConnection.Open();
+
+            SqlCommand cmd = new SqlCommand("SELECT * FROM tab_ProducaoDet", sqlConnection);
+            SqlDataReader dr = cmd.ExecuteReader();
+
+            int i = 0;
+
+            while (dr.Read())
+            {              
+                arr[i]=ReadSingleRow((IDataRecord)dr, i);
+                i++;
+                if (i == 10)
+                {
+                    break;
+                }
+            }
+
+            
+            return arr;
+        }
+
+
+        public static string ReadSingleRow(IDataRecord record, int i)
+        {
+
+
+            return string.Format("{0}, {1}", record[0], record[1]);
+            
+        }
+
     }
+
 }

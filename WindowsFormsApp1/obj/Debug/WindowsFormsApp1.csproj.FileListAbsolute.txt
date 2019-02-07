@@ -8,3 +8,13 @@ c:\users\administrador\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\
 c:\users\administrador\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
 c:\users\administrador\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 c:\users\administrador\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Administrador\source\repos\WindowsFormsApp1\TestsCSharp\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Administrador\source\repos\WindowsFormsApp1\TestsCSharp\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Administrador\source\repos\WindowsFormsApp1\TestsCSharp\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Administrador\source\repos\WindowsFormsApp1\TestsCSharp\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\Users\Administrador\source\repos\WindowsFormsApp1\TestsCSharp\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Administrador\source\repos\WindowsFormsApp1\TestsCSharp\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Administrador\source\repos\WindowsFormsApp1\TestsCSharp\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Administrador\source\repos\WindowsFormsApp1\TestsCSharp\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\source\repos\WindowsFormsApp1\TestsCSharp\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Administrador\source\repos\WindowsFormsApp1\TestsCSharp\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
